@@ -991,8 +991,7 @@ const Team=()=>{
           </div>
           </Fade>
           </div>
-          <Navbar/>
-          <Footer/>
+
     </div>)
 
 }

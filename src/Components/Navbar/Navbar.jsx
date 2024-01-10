@@ -11,27 +11,27 @@ const Navbar = () => {
   const [activeItem, setActiveItem] = useState(null);
 
   const handleItemClick = (position) => {
-    const margin = 37;
+    const margin = 0;
     const containerWidth = document.querySelector('.bottom-nav').getBoundingClientRect().width;
-    const maxLeftPosition = containerWidth - 50; // Assuming slider width is 50px
-    const left = Math.min(position.left + margin, maxLeftPosition);
+    const maxLeftPosition = containerWidth; // Assuming slider width is 50px
+    const left = Math.min(position.left + margin);
     setActiveItem(left);
   };
 
   return (
     <div>
       <ul className="bottom-nav">
-        <div className="slider" style={{ left: activeItem }}></div>
+        <div className="slider" style={{ right: activeItem}}></div>
         <li>
           <Link to="/" onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}>
             <FontAwesomeIcon icon={faHome} />
-            <span>Home</span>
+           
           </Link>
         </li>
         <li>
           <Link to="/About" onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}>
             <FontAwesomeIcon icon={faInfoCircle} />
-            <span>About</span>
+            {/* <span>About</span> */}
           </Link>
         </li>
         <li>
@@ -41,19 +41,19 @@ const Navbar = () => {
             onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}
           >
             <FontAwesomeIcon icon={faCheckSquare} />
-            <span>Components</span>
+            {/* <span>Components</span> */}
           </Link>
         </li>
         <li>
           <Link to="/Gallery" onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}>
             <FontAwesomeIcon icon={faImages} />
-            <span>Gallery</span>
+            {/* <span>Gallery</span> */}
           </Link>
         </li>
         <li>
           <Link to="/Team" onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}>
             <FontAwesomeIcon icon={faUsers} />
-            <span>Team</span>
+            {/* <span>Team</span> */}
           </Link>
         </li>
         

@@ -6,6 +6,7 @@ import Gallery from './Components/Gallery/Gallery';
 import Home from './Components/Home/Home';
 import Team from './Components/Team/Team';
 import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
 import { BrowserRouter,Routes,Route} from 'react-router-dom';
 function App() {
   return (
@@ -19,8 +20,11 @@ function App() {
         <Route path='/Gallery' element={<Gallery/>}/>
         <Route path='/Team' element={<Team/>}/>
       </Routes>
-     </BrowserRouter>
      
+      <Navbar/>
+      <Footer/>
+     </BrowserRouter>
+
     </div>
   );
 }
