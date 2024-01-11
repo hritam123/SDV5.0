@@ -9,8 +9,8 @@ const Gallery=()=>{
   }, []);
 return(
   
-  <div>
-  <span style={{color:"grey" , fontSize:'100px' , alignItems:'center', }}>Gallery</span>
+  <div  >
+  <span id="bdy" style={{color:"grey" , fontSize:'70px' , alignItems:'center'}}>Gallery</span>
   <Photo/>
 
 </div>

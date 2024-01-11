@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: "Playfair";
-  
+  scroll-behavior: smooth;
 }
 
 .grid-container-com {

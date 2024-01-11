@@ -7,6 +7,7 @@ import setup from "../ASSETS/setup.png";
 import eye from "../ASSETS/eye.png";
 import finished from "../ASSETS/finished.png";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 const About=()=>{
   useEffect(() => {
     // Scroll to the top of the page when the component mounts
@@ -19,7 +20,7 @@ const About=()=>{
 
 
 
-      <header>
+      <header style={{scrollBehavior: "smooth"}}>
         <div class="container1 container_solid">
       
       <div class="title_wrapper">
@@ -109,7 +110,7 @@ const About=()=>{
        regarded as one of the biggest technical clubs  
       to acquaint the students with the domain of
        Automobile Engineering</p>
-                  <button className="cta-button">More</button>      
+                  <button className="cta-button"><Link to="https://www.saenitdgp.com/">More</Link></button>      
                  
                 </div>
                 <div className="hero-image">

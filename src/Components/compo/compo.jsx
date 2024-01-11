@@ -11,7 +11,7 @@ const Compo=()=>{
     <div>
        
         
-        <div style={{color:"white" , fontSize:'50px'}}>
+        <div style={{color:"white" , fontSize:'20px'}}>
             
            
 <>
