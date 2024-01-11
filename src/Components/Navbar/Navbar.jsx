@@ -24,13 +24,13 @@ const Navbar = () => {
         <div className="slider" style={{ right: activeItem}}></div>
         <li>
           <Link to="/" onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}>
-            <FontAwesomeIcon icon={faHome} />
+            <FontAwesomeIcon icon={faHome} style={{height:"29px",width:"29px"}}/>
            
           </Link>
         </li>
         <li>
           <Link to="/About" onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}>
-            <FontAwesomeIcon icon={faInfoCircle} />
+            <FontAwesomeIcon icon={faInfoCircle} style={{height:"29px",width:"29px"}}/>
             {/* <span>About</span> */}
           </Link>
         </li>
@@ -40,19 +40,19 @@ const Navbar = () => {
             className={activeItem === null ? 'active-icon' : ''}
             onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}
           >
-            <FontAwesomeIcon icon={faCheckSquare} />
+            <FontAwesomeIcon icon={faCheckSquare} style={{height:"29px",width:"29px"}}/>
             {/* <span>Components</span> */}
           </Link>
         </li>
         <li>
           <Link to="/Gallery" onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}>
-            <FontAwesomeIcon icon={faImages} />
+            <FontAwesomeIcon icon={faImages} style={{height:"29px",width:"29px"}}/>
             {/* <span>Gallery</span> */}
           </Link>
         </li>
         <li>
           <Link to="/Team" onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}>
-            <FontAwesomeIcon icon={faUsers} />
+            <FontAwesomeIcon icon={faUsers} style={{height:"29px",width:"29px"}}/>
             {/* <span>Team</span> */}
           </Link>
         </li>

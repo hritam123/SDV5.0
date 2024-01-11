@@ -2,7 +2,7 @@
 /* 'Playfair Display',serif;   'Open Sans', sans-serif; */
 
 /* #a3c962 */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Exo:wght@200&family=Playfair+Display:wght@500&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Exo:wght@200&family=Playfair+Display:wght@500&family=Poppins:wght@300&family=Roboto:wght@300;900&display=swap');
 *,
 *::before,
 *::after {
@@ -28,7 +28,7 @@ h6 {
 body{
   width:100%;
   overflow: hidden;
-  overflow-y:scroll;
+  overflow-y:scroll ;
  font-family: 'Roboto', sans-serif;
 }
 .container {
@@ -101,15 +101,17 @@ button {
   z-index: 12;
   position: relative;
   padding-inline:10vw;
-
+  margin-top: 25px;
 
 }
 
 .content h3 {
-  font-size: clamp(0.7rem, 5.5rem + 2vw, 32px);
+  font-size: clamp(0.7rem, 7.5rem + 2vw, 32px);
   font-family: 'Playfair Display', serif;
   border: 1px solid;
   margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .content h3 {
@@ -160,7 +162,7 @@ button {
     font-size: clamp(0.7rem, 0.5rem + 2vw, 30px);
 
   text-shadow: 2px 2px 8px #000;
-  line-height: 50px;
+  line-height: 40px;
   margin-bottom: 20px;
   text-align: inherit;
   font-family: 'Roboto', sans-serif;
@@ -279,8 +281,8 @@ button {
   text-align: center;
 }
 .hfx{
-  box-shadow: inset 0px 0px 25px #1479EA;
-  border: 1px solid;
+ 
+  border-bottom: 1px solid;
 }
 .ninty h4,
 .eighty h4,
@@ -411,10 +413,10 @@ button {
 }
 
 /* forest forest forest forest forest forest  */
-
-.forest {
-  padding-bottom: 4%;
+.forest{
+  padding: 4%;
 }
+
 .forest--text {
   display: block;
 
@@ -429,8 +431,9 @@ button {
   color: #EEEEEE;
   font-weight: lighter;
   font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   font-size: 50px;
-  margin-left: -160px;
+  margin-left: -190px;
   margin-top: 20px;
   margin-bottom: 30px;
 }

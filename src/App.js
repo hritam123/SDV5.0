@@ -22,6 +22,7 @@ function App() {
       </Routes>
      
       <Navbar/>
+      
       <Footer/>
      </BrowserRouter>
 

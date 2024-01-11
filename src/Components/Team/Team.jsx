@@ -10,7 +10,13 @@ import {  faGithubSquare } from '@fortawesome/free-brands-svg-icons'; // Import 
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Import Twitter, Facebook, GitHub, and LinkedIn icons from brands package
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'; // Import Twitter, Facebook, GitHub, LinkedIn, and Instagram icons from brands package
 import { Fade } from "react-reveal";
+import { useEffect } from "react";
 const Team=()=>{
+
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
   return(  
   <div >
     <div className="main9">

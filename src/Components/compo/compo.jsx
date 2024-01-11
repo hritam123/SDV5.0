@@ -1,11 +1,15 @@
 import React from "react";
 import './compo.css';
 import { Link } from "react-router-dom";
-
+import { useEffect } from "react";
 const Compo=()=>{
+	useEffect(() => {
+		
+		window.scrollTo(0, 0);
+	  }, []);
    return(
     <div>
-        <span style={{fontSize:"40px"}}>Components</span>
+       
         
         <div style={{color:"white" , fontSize:'50px'}}>
             

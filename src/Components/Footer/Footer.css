@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Exo:wght@200&family=Playfair+Display:wght@500&family=Poppins:wght@300&family=Roboto:wght@300;900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +45,8 @@
       width: 100%;
       color: #fff;
       margin-left: 90px;
+      line-height: 24px;
+      font-family: 'Roboto', sans-serif;
   }
   
   .footer-content-column ul li a {
@@ -67,7 +70,7 @@
   }
   .footer-menu-name {
       color: #fffff2;
-      font-size: 15px;
+      font-size: 22px;
       font-weight: 900;
       letter-spacing: .1em;
       line-height: 18px;
@@ -91,6 +94,11 @@
       color: #fffff2;
       margin-top: 10px;
       margin-bottom: 20px;
+  
+  }
+  .rah{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
   }
   .footer-call-to-action-button:hover {
       background-color: #fffff2;

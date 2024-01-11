@@ -246,26 +246,14 @@ return(
     </div>
     <div class="event__timeline">
       <div class="event__dot"></div>
-      <div class="event__line"></div>
+      {/* <div class="event__line"></div> */}
     </div>
     <div class="event__description">
       <a class="event__link" href="#">Test Link</a>
-      Test
+    
     </div>
   </div>
-  <div class="event">
-    <div class="event__date">
-      last
-    </div>
-    <div class="event__timeline">
-      <div class="event__dot"></div>
-      <div class="event__line"></div>
-    </div>
-    <div class="event__description">
-      <a class="event__link" href="#">last</a>
-      last
-    </div>
-  </div>
+ 
 </div>
 </div>
 )

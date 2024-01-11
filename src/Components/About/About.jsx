@@ -6,8 +6,12 @@ import bheed from "../ASSETS/bheed.png";
 import setup from "../ASSETS/setup.png";
 import eye from "../ASSETS/eye.png";
 import finished from "../ASSETS/finished.png";
-
+import { useEffect } from "react";
 const About=()=>{
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
     return(   <div>
 
    

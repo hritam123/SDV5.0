@@ -7,7 +7,7 @@ const Button=()=>{
         <div>
             <Link to='/About'>
             <button>
- About
+ Know more
 </button>
 </Link>
         </div>

@@ -41,10 +41,15 @@
     height: 80vh;
     overflow: scroll;
     overflow-x: hidden;
+   margin-left: -55px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+
+  }
+  ::-webkit-scrollbar{
+    width: 0px;
   }
   
   .timeline .event {
@@ -58,7 +63,7 @@
     text-align: right;
     font-size: 20px;
     font-weight: 600;
-    color: #EEEEEE;
+   padding-right: 40px;
   }
   
   .timeline .event__timeline {
@@ -173,5 +178,8 @@
         .timeline .event__link{
             font-size: 18px;
           }
-}
+          .timeline{
+            margin-left: -10px;
+          }
+        }
 

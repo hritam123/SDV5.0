@@ -53,10 +53,10 @@ const Footer=()=>{
             <h2 className="footer-menu-name"><strong>Contact Us:</strong></h2>
             <ul id="menu-quick-links" className="footer-menu-list">
               <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                <span>Mahatma Gandhi Avenue,A-zone</span>
+                <span>Mahatma Gandhi Avenue, A-zone</span>
               </li>
               <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                <span>Durgapur,West Bengal Durgapur: 713209</span>
+                <span>Durgapur, West Bengal Durgapur: 713209</span>
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page">
               <Mailto email="saeindia@nitdgp.ac.in" subject="Hello & Welcome" body="Hello world!"><strong>saeindia@nitdgp.ac.in</strong></Mailto>
@@ -67,19 +67,19 @@ const Footer=()=>{
         </div>
         <div className="footer-content-column">
           <div className="footer-call-to-action">
-            <h2 className="footer-call-to-action-title"><strong><em><span style={{fontWeight:"90px"}}>RahulKashyap</span></em></strong></h2>
+            <h2 className="footer-call-to-action-title"><strong><span style={{fontWeight:"90px",    }} className="rah">Rahul Kashyap</span></strong></h2>
             
             <p className="footer-call-to-action-description" style={{fontSize:"20px"}}><strong>(President)</strong></p>
-            <p><Mailto email="president.saeindia@nitdgp.ac.in" subject="Hello & Welcome" body="Hello world!"><strong>president.saeindia@nitdgp.ac.in</strong></Mailto></p>
-            <p>+91 8574613029</p>
+            <p style={{fontSize:"18px"}}><Mailto email="president.saeindia@nitdgp.ac.in" subject="Hello & Welcome" body="Hello world!"><strong>president.saeindia@nitdgp.ac.in</strong></Mailto></p>
+            <p style={{fontSize:"16px"}}>+91 8574613029</p>
             
           </div>
           <div className="footer-call-to-action">
-            <h2 className="footer-call-to-action-title"><strong><em><span style={{fontWeight:"90px"}}>Asutosh Kumar Singh Rathore </span></em></strong></h2>
+            <h2 className="footer-call-to-action-title"><strong><span style={{fontWeight:"90px"}} className="rah">Asutosh Kumar Singh Rathore </span></strong></h2>
             
             <p className="footer-call-to-action-description" style={{fontSize:"20px"}}><strong>(Head of Corporate Communition)</strong></p>
-            <p><Mailto email="president.saeindia@nitdgp.ac.in" subject="Hello & Welcome" body="Hello world!"><strong>rathoreasutosh3006@gmail.com</strong></Mailto></p>
-            <p>+91 6396277108</p>
+            <p style={{fontSize:"18px"}}><Mailto email="president.saeindia@nitdgp.ac.in" subject="Hello & Welcome" body="Hello world!"><strong>rathoreasutosh3006@gmail.com</strong></Mailto></p>
+            <p style={{fontSize:"16px"}}>+91 6396277108</p>
             
           </div>
           <div className="footer-call-to-action">
