@@ -53,10 +53,10 @@ const Footer=()=>{
             <h2 className="footer-menu-name"><strong>Contact Us:</strong></h2>
             <ul id="menu-quick-links" className="footer-menu-list">
               <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                <span>Mahatma Gandhi Avenue, A-zone</span>
+                <span className="dgp">Mahatma Gandhi Avenue, A-zone</span>
               </li>
               <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                <span>Durgapur, West Bengal Durgapur: 713209</span>
+                <span className="dgp">Durgapur, West Bengal Durgapur: 713209</span>
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page">
               <Mailto email="saeindia@nitdgp.ac.in" subject="Hello & Welcome" body="Hello world!"><strong>saeindia@nitdgp.ac.in</strong></Mailto>
