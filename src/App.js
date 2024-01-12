@@ -18,7 +18,7 @@ function App() {
         <Route path='/About' element={<About/>} />
         <Route path='/components' element={<Compo/>}/>
         <Route path='/Gallery' element={<Gallery/>}/>
-        <Route path='/Team' element={<Team/>}/>
+        {/* <Route path='/Team' element={<Team/>}/> */}
       </Routes>
      
       <Navbar/>

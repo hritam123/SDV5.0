@@ -25,13 +25,13 @@ const Navbar = () => {
         <div className="slider" style={{ right: activeItem}}></div>
         <li>
           <Link to="/" onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}>
-            <FontAwesomeIcon icon={faHome} style={{height:"29px",width:"29px",paddingRight:"35px"}}/>
+            <FontAwesomeIcon icon={faHome} style={{height:"29px",width:"40px",marginRight:" 30px",  marginLeft:"30px"}}/>
            
           </Link>
         </li>
         <li>
           <Link to="/About" onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}>
-            <FontAwesomeIcon icon={faInfoCircle} style={{height:"29px",width:"29px",paddingRight:"35px"}}/>
+            <FontAwesomeIcon icon={faInfoCircle} style={{height:"29px",width:"40px",marginRight:"30px", marginLeft:"30px"}}/>
             {/* <span>About</span> */}
           </Link>
         </li>
@@ -41,22 +41,23 @@ const Navbar = () => {
             className={activeItem === null ? 'active-icon' : ''}
             onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}
           >
-            <FontAwesomeIcon icon={faGears} style={{height:"39px",width:"39px",paddingRight:"35px"}}/>
+            <FontAwesomeIcon icon={faGears} style={{height:"39px",width:"40px",marginRight:"30px",  marginLeft:"30px"}}/>
             {/* <span>Components</span> */}
           </Link>
         </li>
         <li>
           <Link to="/Gallery" onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}>
-            <FontAwesomeIcon icon={faImages} style={{height:"29px",width:"29px",paddingRight:"35px"}}/>
+            <FontAwesomeIcon icon={faImages} style={{height:"29px",width:"40px",marginRight:"30px",  marginLeft:"30px"}}/>
             {/* <span>Gallery</span> */}
           </Link>
         </li>
-        <li>
+
+        {/* <li>
           <Link to="/Team" onClick={(e) => handleItemClick(e.target.getBoundingClientRect())}>
             <FontAwesomeIcon icon={faUsers} style={{height:"29px",width:"29px",paddingRight:"35px"}}/>
-            {/* <span>Team</span> */}
+            
           </Link>
-        </li>
+        </li> */}
         
       </ul>
     </div>
