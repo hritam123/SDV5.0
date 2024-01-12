@@ -1,5 +1,3 @@
-
-
 *{margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -242,10 +240,10 @@ img{
         margin: 35px 0px;
     }
     .hero-content h2{
-        font-size: 40px;
+        font-size: 30px;
     }
     .hero-content p{
-        font-size: 18px;
+        font-size: 12px;
         margin-bottom: 20px;
     }
     .hero-content button{
@@ -347,10 +345,8 @@ header {
 
 .container_solid .title_wrapper h1 {
   
-  background-color: white;
+  background: url(https://png.pngtree.com/background/20210714/original/pngtree-white-blue-technology-background-grey-style-picture-image_1209728.jpg);
   background-position: center;
-  
- 
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -360,8 +356,9 @@ header {
 }
 
 .container_image {
-  background: url(https://png.pngtree.com/background/20210714/original/pngtree-white-blue-technology-background-grey-style-picture-image_1209728.jpg);
+  background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-white-blue-technology-background-grey-style-picture-image_1209728.jpg);
   background-position: center;
+  background-size: cover;
   background-attachment: fixed;
   top: 100vh;
 }
@@ -427,7 +424,7 @@ header {
 
 
 .containerNnN {
-  background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-white-blue-technology-background-grey-style-picture-image_1209728.jpg) ;
+  background: url(https://png.pngtree.com/background/20210714/original/pngtree-white-blue-technology-background-grey-style-picture-image_1209728.jpg);
   background-size: 120vh;
   background-size:100vw auto;
   background-position: center;
@@ -436,26 +433,27 @@ header {
   width: 100%;
   padding: 4% 2%;
   box-sizing: border-box;
-  height: 80vh;
+  height: 70vh;
 }
 
-.box {
+.bo {
   flex: 1;
   overflow: hidden;
   transition: .5s;
-  margin: 0 2%;
   box-shadow: 0 20px 30px rgba(0,0,0,.1);
   line-height: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.box > img {
+.bo > img {
   width: 100%;
   height: calc(100% - 10vh);
   object-fit: cover; 
-  transition: .5s;
+  transition: ease-in-out 1.2s;
 }
 
-.box > span {
+.bo > span {
   font-size: 3.8vh;
   display: block;
   text-align: center;
@@ -463,8 +461,8 @@ header {
   line-height: 2.6;
 }
 
-.box:hover { flex: 1 1 50%; }
-.box:hover > img {
+.bo:hover { flex: 1 1 50%; }
+.bo:hover > img {
   width: 100%;
   height: 100%;
 }
@@ -628,10 +626,3 @@ header {
   color: #00adb5;
   padding: 2rem;
 }
-
-
-
-
-
-
-

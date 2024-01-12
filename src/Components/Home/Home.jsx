@@ -9,6 +9,7 @@ import { Fade } from "react-reveal";
 import Timeline from "../Timeline/Timeline";
 import Button from "../Button/button";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 const Home = () => {
     useEffect(() => {
         // Scroll to the top of the page when the component mounts
@@ -29,7 +30,7 @@ const Home = () => {
                         <Fade>  <h3 style={{fontSize:"50px",marginTop:"30px",marginBottom:"40px"}}>SELF DRIVING VEHICLES</h3></Fade>
                         <Fade>  <h1>Neccesity is the mother of Invention</h1></Fade>
                         <Fade> <p style={{fontSize:"25px"}}>Self-driving cars will enable car-sharing even in spread-out suburbs.<br />A car will come to you just when you need it. <br />And when you are done with it, the car will just drive away,<br />So you won’t even have to look for parking.</p></Fade>
-                    <button style={{height:"60px",width:"150px"}}><span style={{fontSize:"25px"}}>Register</span></button>
+                    <button style={{height:"60px",width:"150px"}}><span style={{fontSize:"25px"}}><Link to='https://docs.google.com/forms/d/e/1FAIpQLSf5eb9b_bHZdqYWEzvTjjC8RsP0lP1LfuJNgzPNe6-_89tGkg/viewform?usp=send_form'>Register</Link></span></button>
                     </div>
                 </div>
 
@@ -69,23 +70,6 @@ const Home = () => {
                 </div>
             </div>
 
-
-            <div className="forest">
-
-                <div className="forest__context">
-                    <div className="forest--text">
-                        <div className="forest__paragraph">
-                        </div>
-                        <div className="forest__heading">
-
-                            <h1 className="hfx">Event Timeline</h1>
-                        </div>
-                    </div>
-                </div>
-                <Timeline />
-
-
-            </div>
 
             <div className="about">
 
