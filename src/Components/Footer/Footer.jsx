@@ -59,27 +59,16 @@ const Footer=()=>{
               <li className="menu-item menu-item-type-post_type menu-item-object-page">
               <Mailto email="saeindia@nitdgp.ac.in" subject="Hello & Welcome" body="Hello world!"><strong>saeindia@nitdgp.ac.in</strong></Mailto>
               </li>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14630.312462134343!2d87.2931383!3d23.5476717!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f772081cede5e9%3A0x33fb9ccb243dfa5!2sNational%20Institute%20of%20Technology%20Durgapur!5e0!3m2!1sen!2sin!4v1704636928883!5m2!1sen!2sin" width="300" height="150" style={{border:"0;"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
             </ul>
           </div>
         </div>
         <div className="footer-content-column">
           <div className="footer-call-to-action">
-            <h2 className="footer-call-to-action-title"><strong><span style={{fontWeight:"90px",    }} className="rah">Rahul Kashyap</span></strong></h2>
-            
-            <p className="footer-call-to-action-description" style={{fontSize:"20px"}}><strong>(President)</strong></p>
-            <p style={{fontSize:"18px"}}><Mailto email="president.saeindia@nitdgp.ac.in" subject="Hello & Welcome" body="Hello world!"><strong>president.saeindia@nitdgp.ac.in</strong></Mailto></p>
-            <p style={{fontSize:"16px"}}>+91 8574613029</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14630.312462134343!2d87.2931383!3d23.5476717!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f772081cede5e9%3A0x33fb9ccb243dfa5!2sNational%20Institute%20of%20Technology%20Durgapur!5e0!3m2!1sen!2sin!4v1704636928883!5m2!1sen!2sin" width="300" height="210" style={{border:"0;"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             
           </div>
-          <div className="footer-call-to-action" >
-            <h2 className="footer-call-to-action-title"><strong><span style={{fontWeight:"90px"}} className="rah">Asutosh Kumar Singh Rathore </span></strong></h2>
-            
-            <p className="footer-call-to-action-description" style={{fontSize:"20px"}}><strong>(Head of Corporate Communition)</strong></p>
-            <p style={{fontSize:"18px"}}><Mailto email="president.saeindia@nitdgp.ac.in" subject="Hello & Welcome" body="Hello world!"><strong>rathoreasutosh3006@gmail.com</strong></Mailto></p>
-            <p style={{fontSize:"16px"}}>+91 6396277108</p>
-            
-          </div>
+      
           <div className="footer-call-to-action">
          
             
