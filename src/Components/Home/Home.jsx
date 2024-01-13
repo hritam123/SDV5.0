@@ -38,7 +38,7 @@ const Home = () => {
             </div>
             <div className="context textcenter ">
 
-                <h3 className="textgreen" style={{ fontSize: "35px" }}>How SDV Revolutionize</h3>
+                <h3 className="textgreen" style={{ fontSize: "35px", lineHeight:"1" }}>How SDV Revolutionize</h3>
 
 
 
